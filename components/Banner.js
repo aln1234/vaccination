@@ -30,13 +30,13 @@ For informational purposes only.
                         </h1>
                 
                <div className="flex items-center space-x-8 ml-8">
-               <motion.h1 className="text-lg px-6 py-8 my-2 shadow-3xl cursor-pointer font-semibold bg-red-500 text-white rounded-full"
+               <motion.h1 className="text-lg px-4 py-4 my-2 shadow-3xl cursor-pointer font-semibold bg-red-500 text-white rounded-full"
                initial={{x:"-250vh"}}
                animate={{x:1}}
                transition={{delay:1.5, type:"spring", stiffness:50}}
                
                >Get Your Vaccine</motion.h1>
-               <motion.h1 className=" text-lg px-6 py-8 my-2 shadow-xl cursor-pointer border-2 border-red-400 text-red-400 font-semibold rounded-full hover:scale-100"
+               <motion.h1 className=" text-lg px-4 py-4 my-2 shadow-xl cursor-pointer border-2 border-red-400 text-red-400 font-semibold rounded-full hover:scale-100"
                 initial={{x:"-250vh"}}
                 animate={{x:50}}
                 transition={{delay:0.5, type:"spring", stiffness:60}}
@@ -49,7 +49,7 @@ For informational purposes only.
                       
                   
                     </div>
-                    <div className="ml-48"> 
+                    <div className="ml-80"> 
                     <motion.div
                      animate={{ scale:4 ,y:100 }}
                      transition={{ duration: 20, ease:"easeOut",yoyo:Infinity }}

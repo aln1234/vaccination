@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 function Single() {
     return (
-        <section className="flex mx-48 my-24">
+        <section className="flex mx-48 my-24 pt-12">
             <div>
                 <div className="flex items-center gird gird-cols-2 space-x-12">
                     <motion.div
@@ -47,6 +47,7 @@ function Single() {
                       <Image src={vaccine} 
                    objectFit="contain"
                    layout="fill"
+                 
                    
                   
                   

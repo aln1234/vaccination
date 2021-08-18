@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
 import Header from '../components/Header'
+import Picture from '../components/Picture'
 import Single from '../components/Single'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Header/>
         <Banner/>
         <Single/>
+        <Picture/>
         
 
       
